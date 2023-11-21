@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.22)
+project(cpp_primer_01)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(main_only main_only.cpp)
+add_executable(add add.cpp)
+add_executable(whilecount whilecount.cpp)
+add_executable(forcount forcount.cpp)
+add_executable(for_ex for_ex.cpp)
+add_executable(mysum mysum.cpp)
+add_executable(occurs occurs.cpp)
+add_executable(item_io item_io.cpp)
+add_executable(add_item add_item.cpp)
+add_executable(add_item2 add_item2.cpp)
+add_executable(avg_price avg_price.cpp)
